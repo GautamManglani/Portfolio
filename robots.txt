@@ -1,0 +1,10 @@
+# robots.txt for gautammanglani.in
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://gautammanglani.in/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 10
