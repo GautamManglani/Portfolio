@@ -52,7 +52,7 @@ const LinkedInSync = {
             first_name: 'Gautam',
             last_name: 'Manglani',
             full_name: 'Gautam Manglani',
-            follower_count: 13,
+            follower_count: 30,
             occupation: 'BCA Cyber Security Student',
             headline: 'BCA Cyber Security Student at Kristu Jayanti University',
             summary: 'I am a BCA Cyber Security student at Kristu Jayanti University, Bengaluru, with a strong passion for technology and security. Currently pursuing my degree with a focus on cybersecurity, ethical hacking, and information security.',
