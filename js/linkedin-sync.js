@@ -46,13 +46,13 @@ const LinkedInSync = {
         // In a real implementation, this would make a request to your backend
         // which would then call the LinkedIn API
         
-        const profileData = {
+                const profileData = {
             public_identifier: 'gautammanglani',
             profile_pic_url: 'https://cdn1.genspark.ai/user-upload-image/crawler_linkedin_profile_thumbnails/e2a3a761-fa04-31cc-9992-5fd6d5f206ac',
             first_name: 'Gautam',
             last_name: 'Manglani',
             full_name: 'Gautam Manglani',
-            follower_count: 30,
+            follower_count: 32,
             occupation: 'BCA Cyber Security Student',
             headline: 'BCA Cyber Security Student at Kristu Jayanti University',
             summary: 'I am a BCA Cyber Security student at Kristu Jayanti University, Bengaluru, with a strong passion for technology and security. Currently pursuing my degree with a focus on cybersecurity, ethical hacking, and information security.',
@@ -60,7 +60,7 @@ const LinkedInSync = {
             country: 'IN',
             city: 'Bengaluru',
             state: 'Karnataka',
-            connections: 13,
+            connections: 32,
             education: [
                 {
                     starts_at: { day: 1, month: 1, year: 2024 },
@@ -72,8 +72,12 @@ const LinkedInSync = {
                     school_linkedin_profile_url: 'https://www.linkedin.com/school/kristujayantiuniversityblr'
                 }
             ],
-            experiences: [],
-            certifications: [],
+            experiences: [
+                // Add your work experience using the Experience tab
+            ],
+            certifications: [
+                // Add your certifications using the Certifications tab
+            ],
             skills: [
                 'Network Security',
                 'Information Security',
@@ -83,9 +87,32 @@ const LinkedInSync = {
                 'HTML/CSS',
                 'Linux',
                 'Cybersecurity Fundamentals',
-                'Web Development'
+                'Web Development',
+                'Bug bounty',
+                'Vulnerability Testing',
+                'Data Science Basics',
+                'Artificial Intelligence (AI)',
+                'Agent-based Modeling',
+                'xploit',
+                'CTF',
+                'Threat & Vulnerability Management',
+                'Vulnerability Scanning',
+                'Java',
+                'Software Development',
+                'Problem Solving',
+                'Linux Administration',
+                'Command Line',
+                'Operating Systems',
+                'Burp Suite',
+                'Nmap',
+                'Wireshark',
+                'Vulnerability Assessment',
+                'SQL',
+                'Cyber Security'
             ],
-            accomplishment_projects: []
+            accomplishment_projects: [
+                // Add your projects using the Projects tab
+            ]
         };
 
         // Cache the data
